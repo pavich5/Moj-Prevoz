@@ -2,20 +2,20 @@
 
 MojPrevoz is a ride-sharing app for coordinating trips across North Macedonia. This repository is organized for public sharing and now contains:
 
-- `frontend/` - the Expo / React Native mobile app
+- `mobile-app/` - the Expo / React Native mobile application
 - `api/` - the ASP.NET Core backend API
 
 ## Project Structure
 
 ```text
 Moj-Prevoz/
-|- frontend/
+|- mobile-app/
 `- api/
 ```
 
-## Frontend Setup
+## Mobile App Setup
 
-1. Copy `frontend/.env.example` to `frontend/.env`
+1. Copy `mobile-app/.env.example` to `mobile-app/.env`
 2. Fill in the required values:
    - `EXPO_PUBLIC_API_BASE_URL`
    - `EXPO_PUBLIC_WS_URL`
@@ -24,7 +24,7 @@ Moj-Prevoz/
 3. Install dependencies and run the app:
 
 ```bash
-cd frontend
+cd mobile-app
 npm install
 npm start
 ```

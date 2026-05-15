@@ -3,8 +3,8 @@ import { initReactI18next } from 'react-i18next';
 import { Platform } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-import mk from '../frontend/app/locales/mk.json';
-import en from '../frontend/app/locales/en.json';
+import mk from './app/locales/mk.json';
+import en from './app/locales/en.json';
 
 const initLanguage = async () => {
   if (Platform.OS !== 'web') {

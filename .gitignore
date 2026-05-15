@@ -1,13 +1,13 @@
 .DS_Store
 .serena/
 
-# Frontend
-frontend/.env
-frontend/.env.*
-frontend/node_modules/
-frontend/.expo/
-frontend/dist/
-frontend/web-build/
+# Mobile app
+mobile-app/.env
+mobile-app/.env.*
+mobile-app/node_modules/
+mobile-app/.expo/
+mobile-app/dist/
+mobile-app/web-build/
 
 # Backend
 api/**/bin/
