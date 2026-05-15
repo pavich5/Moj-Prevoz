@@ -1,0 +1,8 @@
+node_modules/
+android/build/
+android/app/build/
+.git/
+.env
+*.log
+assets/dev/
+__tests__/

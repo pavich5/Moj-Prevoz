@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "Moj Prevoz",
+    "slug": "moj-prevoz",
+    "version": "1.0.7",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "scheme": "mojprevoz",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "buildNumber": "1.0.2",
+      "icon": "./assets/images/logo.png",
+      "bundleIdentifier": "com.mojprevoz.mobile",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to allow you to upload a profile picture.",
+        "NSLocationWhenInUseUsageDescription": "Our app allows you to share your location in chat messages. If you choose to use the 'Share Location' button, you will be asked to confirm before sharing a Google Maps link with your coordinates to the selected user.",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "versionCode": 22,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.mojprevoz.mobile"
+    },
+    "notification": {
+      "icon": "./assets/images/logo.png",
+      "color": "#ffffff",
+      "androidMode": "default",
+      "androidCollapsedTitle": "#{unreadNotifications} new notifications"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fa9d289b-4a39-4dda-8d4b-2ed4687d20ef"
+      }
+    },
+    "owner": "novoselskiantonio"
+  }
+}
