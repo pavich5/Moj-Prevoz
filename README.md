@@ -53,4 +53,4 @@ dotnet run --project MojPrevoz.Api/MojPrevoz.Api.csproj
 ## Notes
 
 - Secrets and deployment-specific files were removed from the tracked repo before publication.
-- If any of the old secrets were ever used outside a private local environment, rotate them before making the repository public.
+- If any of the old secrets were ever used outside a private local environment, rotate them before making the repository public
